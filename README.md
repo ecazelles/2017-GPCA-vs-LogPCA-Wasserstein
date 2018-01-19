@@ -6,7 +6,7 @@ Arxiv: https://arxiv.org/abs/1708.08143
  
  Content :
  
- test_GPCA_vs_logPCA.m : main script to launch the computation. Display the figures :
+ test_GPCA_vs_logPCA.m : main script to launch the computation for Gaussian data. Display the figures :
  
      1- Gaussian data    
      2- True Wasserstein barycenter of the data
