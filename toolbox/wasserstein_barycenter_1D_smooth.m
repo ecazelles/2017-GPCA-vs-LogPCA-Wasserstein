@@ -19,15 +19,15 @@ function [B, FB] = wasserstein_barycenter_1D_smooth(mu,S,method,n_inv)
 %       wasserstein_barycenter_1D_smooth(mu,S,'spline',10000)
 %       wasserstein_barycenter_1D_smooth(mu,S,'linear',5000)
 % Authors:
-%       Elsa Cazelles, Institut de Mathématiques de Bordeaux, Université
+%       Elsa Cazelles, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
 %       Vivien Seguy, Graduate School of Informatics, Kyoto University.
-%       Jérémie Bigot, Institut de Mathématiques de Bordeaux, Université
+%       JÃ©rÃ©mie Bigot, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
-%       Marco Cuturi, CREST, ENSAE, Université de Paris Saclay.
-%       Nicolas Papadakis, Institut de Mathématiques de Bordeaux, CNRS.
+%       Marco Cuturi, CREST, ENSAE, UniversitÃ© de Paris Saclay.
+%       Nicolas Papadakis, Institut de MathÃ©matiques de Bordeaux, CNRS.
 %
-% Copyright 2016 Elsa Cazelles, Vivien Seguy
+% Copyright 2017 Elsa Cazelles, Vivien Seguy
 
 
 Sinv = 0:1/n_inv:1;
