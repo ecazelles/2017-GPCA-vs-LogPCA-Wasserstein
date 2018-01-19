@@ -1,4 +1,4 @@
-# 2016-GPCA-vs-LogPCA-Wasserstein
+# 2017-GPCA-vs-LogPCA-Wasserstein
 
 Matlab code to reproduce the results of the paper
 'Geodesic PCA versus Log-PCA of histograms in the Wasserstein space', E. Cazelles, V. Seguy, J. Bigot, M. Cuturi, N. Papadakis
