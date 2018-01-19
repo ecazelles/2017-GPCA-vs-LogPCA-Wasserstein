@@ -2,6 +2,7 @@
 
 Matlab code to reproduce the results of the paper
 'Geodesic PCA versus Log-PCA of histograms in the Wasserstein space', E. Cazelles, V. Seguy, J. Bigot, M. Cuturi, N. Papadakis
+
 Arxiv: https://arxiv.org/abs/1708.08143
  
  Content :
