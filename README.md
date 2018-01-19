@@ -23,5 +23,7 @@ Arxiv: https://arxiv.org/abs/1708.08143
 
  
  algo_GPCA_1D_surface.m : Compute principals geodesics via  Geodesic surface approach
+ 
  algo_GPCA_1D_iter.m : Compute principals geodesics via Iterative Geodesic approach
+ 
  toolbox/ : various helper functions
