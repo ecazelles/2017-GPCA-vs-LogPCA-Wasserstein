@@ -14,15 +14,15 @@ function h = pushforward_density(T,f,OmegaExt)
 %       hfinal   = the histogram transported by the map T from the measure
 %       f
 % Authors:
-%       Elsa Cazelles, Institut de Mathématiques de Bordeaux, Université
+%       Elsa Cazelles, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
 %       Vivien Seguy, Graduate School of Informatics, Kyoto University.
-%       Jérémie Bigot, Institut de Mathématiques de Bordeaux, Université
+%       JÃ©rÃ©mie Bigot, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
-%       Marco Cuturi, CREST, ENSAE, Université de Paris Saclay.
-%       Nicolas Papadakis, Institut de Mathématiques de Bordeaux, CNRS.
+%       Marco Cuturi, CREST, ENSAE, UniversitÃ© de Paris Saclay.
+%       Nicolas Papadakis, Institut de MathÃ©matiques de Bordeaux, CNRS.
 %
-% Copyright 2016 Elsa Cazelles, Vivien Seguy
+% Copyright 2017 Elsa Cazelles, Vivien Seguy
 
 
 epsilon = 1e-5;
