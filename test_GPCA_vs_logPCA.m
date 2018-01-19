@@ -6,7 +6,7 @@
 % 'Geodesic PCA versus Log-PCA of histograms in the Wasserstein space', E. Cazelles, V. Seguy, J. Bigot, M. Cuturi, N. Papadakis
 % Arxiv: https://arxiv.org/abs/1708.08143
 %
-% Copyright 2016 Elsa Cazelles, Vivien Seguy
+% Copyright 2017 Elsa Cazelles, Vivien Seguy
 
 addpath('toolbox')
 
