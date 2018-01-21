@@ -23,8 +23,8 @@ Arxiv: https://arxiv.org/abs/1708.08143
      12- Comparison between projections of the data onto iterative PG and log-PC
 
  
- algo_GPCA_1D_surface.m : Compute principals geodesics via  Geodesic surface approach
+ algo_GPCA_1D_surface.m : Compute principal geodesics via  Geodesic surface approach
  
- algo_GPCA_1D_iter.m : Compute principals geodesics via Iterative Geodesic approach
+ algo_GPCA_1D_iter.m : Compute principal geodesics via Iterative Geodesic approach
  
  toolbox/ : various helper functions
