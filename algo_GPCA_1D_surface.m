@@ -1,6 +1,6 @@
 function [v_gpca, t_gpca,residual] = algo_GPCA_1D_surface(w,Omega,L,w0,f,iter_max,iter_sub_max)
 % Function:
-%      Compute principals geodesics via Geodesic surface approach in [Geodesic PCA versus Log-PCA of histograms in the Wasserstein
+%      Compute principal geodesics via Geodesic surface approach in [Geodesic PCA versus Log-PCA of histograms in the Wasserstein
 %      space. E. Cazelles, V. Seguy and al.]
 %
 % Usage:
@@ -20,13 +20,13 @@ function [v_gpca, t_gpca,residual] = algo_GPCA_1D_surface(w,Omega,L,w0,f,iter_ma
 %       components
 %       residual = residual error
 % Authors:
-%       Elsa Cazelles, Institut de Mathématiques de Bordeaux, Université
+%       Elsa Cazelles, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
 %       Vivien Seguy, Graduate School of Informatics, Kyoto University.
-%       Jérémie Bigot, Institut de Mathématiques de Bordeaux, Université
+%       JÃ©rÃ©mie Bigot, Institut de MathÃ©matiques de Bordeaux, UniversitÃ©
 %       Bordeaux.
-%       Marco Cuturi, CREST, ENSAE, Université de Paris Saclay.
-%       Nicolas Papadakis, Institut de Mathématiques de Bordeaux, CNRS.
+%       Marco Cuturi, CREST, ENSAE, UniversitÃ© de Paris Saclay.
+%       Nicolas Papadakis, Institut de MathÃ©matiques de Bordeaux, CNRS.
 %
 % Copyright 2017 Elsa Cazelles, Vivien Seguy
 
