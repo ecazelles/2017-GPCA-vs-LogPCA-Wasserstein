@@ -1,6 +1,6 @@
 function [v_gpca_opt, t_gpca_opt,t0_opt,residual_opt,W_residual_g] = algo_GPCA_1D_iter(w,Omega,L,w0,f,range_t0,iter_max,iter_sub_max)
 % Function:
-%      Compute principals geodesics via Iterative Geodesic approach in [Geodesic PCA versus Log-PCA of histograms in the Wasserstein
+%      Compute principal geodesics via Iterative Geodesic approach in [Geodesic PCA versus Log-PCA of histograms in the Wasserstein
 %      space. E. Cazelles, V. Seguy and al.]
 %
 % Usage:
