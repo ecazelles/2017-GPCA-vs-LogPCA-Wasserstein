@@ -46,11 +46,9 @@ wc=mean(w,1);
 
 t_gpca = zeros(m,L);
 t_gpca_opt = zeros(m,L);
-t_gpca_opt_res = zeros(m,L);
 
 a = Omega(1);
 b = Omega(end);
-alpha = b-a; % alpha is the length of the interval discretized by n points
 
 d=Omega(2)-Omega(1);
 
@@ -69,7 +67,7 @@ theta=tauv/(1+delta*tauv);
 
 
 %Parameter for approximation of strictly increasing functions
- epsilon=1e-2;
+ epsilon=1e-1;
 
 %Unknown to estimate
 v_gpca=zeros(L,n);
@@ -94,7 +92,7 @@ for l=1:L  %estimation of the component l=1...L
         minu = max((a-Omega)/(t0+1),(b-Omega)/(t0-1));
         maxu = min((a-Omega)/(t0-1),(b-Omega)/(t0+1));
 
-        if l<= M  %initalize v with PCA
+        if l<= M  %initalize v with w0
             v=w0(l,:);
         end
 
