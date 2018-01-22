@@ -46,10 +46,8 @@ t_gpca = zeros(m,L);
 
 a = Omega(1);
 b = Omega(end);
-alpha = b-a; % length of the support interval discretized by n points
 
 dis=Omega(2)-Omega(1);
-maxE = alpha*(Omega(2)-Omega(1));
 
 beta=0.2;
 
