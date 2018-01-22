@@ -150,7 +150,7 @@ while iter<=iter_max && sum(abs(v(:)-vm1(:)))/sum(abs(vm1(:)))>threshold
             %Primal descent
             u(l,:)=u(l,:)-theta*((u(l,:)-v(l,:))/tauv-div);        
             %Primal projection
-            %u(l,:)=min(maxu,max(minu,u(l,:)));
+            u(l,:)=min(maxu,max(minu,u(l,:)));
         end
 
         %auxiliary variable update
