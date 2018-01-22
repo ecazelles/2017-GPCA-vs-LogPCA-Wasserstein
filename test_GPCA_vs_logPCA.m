@@ -224,7 +224,7 @@ L = 2;
 % Choose initialization
 V0 = rand(L,length(Omega)+1); % random initialization
 %V0(:,(f > 0)) = bsxfun(@rdivide,V0(:,nonzero_ind),sqrt(f(nonzero_ind))); % initialization with the eigenVector of the covariance matrix
-range_t0=[-1:0.2:1];
+range_t0=[-0.1:0.01:0.1];
 [v_gpca_iter, t_gpca_iter,t0_iter,residual_iter,W_residual_iter] = algo_GPCA_1D_iter(V,OmegaExt,L,V0,f,range_t0);
 
 % Representation of the 1st, 2nd components and the principal geodesic surface of
